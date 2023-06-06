@@ -85,7 +85,7 @@ class App:
         return self.image
 
     def choose_file(self) -> None:
-        initial_dir = "C:\\Users\\dymov\\Desktop\\analizator\\images"
+        initial_dir = "./images"
         file_path = filedialog.askopenfilename(initialdir=initial_dir)
         if not file_path:
             return None
